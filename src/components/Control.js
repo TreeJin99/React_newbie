@@ -1,5 +1,5 @@
 import React from 'react';
-import { MODE } from '../constrants/mode';
+import { MODE } from '../constants/modes';
 
 
 function Control({ onChangeMode }) {

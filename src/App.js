@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
 import TOC from './components/TOC';
-import ReadContent from './components/ReadContent';
+import ReadContent from './components/Content/ReadContent';
 import Subject from './components/Subject';
 import Control from './components/Control';
-import CreateContent from './components/CreateContent';
-import UpdateContent from './components/UpdateContent';
-import { MODE } from './constrants/mode';
+import CreateContent from './components/Content/CreateContent';
+import UpdateContent from './components/Content/UpdateContent';
+import { MODE } from './constants/modes';
 
 
 function App() {
